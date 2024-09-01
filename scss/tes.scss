@@ -1,0 +1,22 @@
+$primary: black;
+$sec: italic;
+.para{
+    p{
+        color:$primary;
+    }
+    h2{
+        font-style: $sec;
+    }
+}
+@mixin common_style($color){
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500;
+    color: $color
+}
+header{
+    nav{
+        a{
+            @include common_style(red)
+        }
+    }
+}

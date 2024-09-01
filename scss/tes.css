@@ -1,0 +1,12 @@
+.para p {
+  color: black;
+}
+.para h2 {
+  font-style: italic;
+}
+
+header nav a {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 500;
+  color: red;
+}/*# sourceMappingURL=tes.css.map */
